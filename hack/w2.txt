@@ -1,0 +1,35 @@
+ERROR directive instruction: previously defined symbol, 
+Line 5: 
+	.EQU FLAG_REG 24242
+
+ERROR a-type instruction: illegal character in symbol, 
+Line 7: 
+	@-1
+
+ERROR a-type instruction: value greater than 15-bit int size, 
+Line 9: 
+	@32768
+
+ERROR c-type instruction: unrecognized comp field, 
+Line 10: 
+	M=D*M
+
+ERROR c-type instruction: unrecognized dest field, 
+Line 12: 
+	R0=D|M
+
+ERROR c-type instruction: unrecognized jump field, 
+Line 14: 
+	M=D+M;JFS
+
+ERROR c-type instruction: unrecognized dest field, unrecognized comp field, 
+Line 18: 
+	R[16383]=24242
+
+ERROR a-type instruction: value is not a number, 
+Line 21: 
+	@16383*ThisisjustbeforethestartofSCREENmemory*
+
++--------------------- ERROR ---------------------+
+| Program did not assemble...     9 errors found  |
++-------------------------------------------------+

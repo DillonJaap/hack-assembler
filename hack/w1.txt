@@ -1,0 +1,31 @@
+ERROR a-type instruction: illegal character in symbol, 
+Line 4: 
+	@-1
+
+ERROR a-type instruction: value greater than 15-bit int size, 
+Line 6: 
+	@32768
+
+ERROR c-type instruction: unrecognized comp field, 
+Line 7: 
+	M=D*M
+
+ERROR c-type instruction: unrecognized dest field, 
+Line 9: 
+	R0=D|M
+
+ERROR c-type instruction: unrecognized jump field, 
+Line 11: 
+	M=D+M;JFS
+
+ERROR c-type instruction: unrecognized dest field, unrecognized comp field, 
+Line 15: 
+	R[16383]=24242
+
+ERROR a-type instruction: value is not a number, 
+Line 18: 
+	@16383*ThisisjustbeforethestartofSCREENmemory*
+
++--------------------- ERROR ---------------------+
+| Program did not assemble...     8 errors found  |
++-------------------------------------------------+

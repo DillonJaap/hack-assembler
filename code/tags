@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+$(BINDIR)/$(TARGET)	makefile	/^$(BINDIR)\/$(TARGET): $(OBJECTS)$/;"	t
+$(OBJDIR)/%.o	makefile	/^$(OBJECTS): $(OBJDIR)\/%.o : $(SRCDIR)\/%.c$/;"	t
+$(OBJECTS)	makefile	/^$(OBJECTS): $(OBJDIR)\/%.o : $(SRCDIR)\/%.c$/;"	t
+12yes	asm/test2.asm	/^.EQU 12yes 408$/;"	d
+409	asm/test2.asm	/^.EQU 409$/;"	d
+ASSEMBLER_H	src/assembler.h	/^#define ASSEMBLER_H$/;"	d
+A_COMMAND	src/parser.h	/^	A_COMMAND,$/;"	e	enum:COMMAND
+BINDIR	makefile	/^BINDIR   = .$/;"	m
+CC	makefile	/^CC = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS = -std=c99 -Wall -I. -g$/;"	m
+CODE_H	src/code.h	/^#define CODE_H$/;"	d
+COMMAND	src/parser.h	/^enum COMMAND$/;"	g
+COMPTABLE_H	src/comptable.h	/^#define COMPTABLE_H$/;"	d
+CONVERSIONS_H	src/conversions.h	/^#define CONVERSIONS_H$/;"	d
+C_COMMAND	src/parser.h	/^	C_COMMAND,$/;"	e	enum:COMMAND
+D	xasm/w1.asm	/^D = A$/;"	d
+D	xasm/w2.asm	/^D = A$/;"	d
+D	xasm/w3.asm	/^D = A$/;"	d
+DIRECTIVE	src/parser.h	/^	DIRECTIVE,$/;"	e	enum:COMMAND
+ERRORS_H	src/errors.h	/^#define ERRORS_H$/;"	d
+E_ALREADY_EXIST	src/errors.h	/^	E_ALREADY_EXIST = 4,	$/;"	e	enum:Errors
+E_ILLEGAL_CHAR	src/errors.h	/^	E_ILLEGAL_CHAR  = 8,$/;"	e	enum:Errors
+E_ILLEGAL_COMP	src/errors.h	/^	E_ILLEGAL_COMP  = 32,	$/;"	e	enum:Errors
+E_ILLEGAL_DEST	src/errors.h	/^	E_ILLEGAL_DEST  = 16,	$/;"	e	enum:Errors
+E_ILLEGAL_JUMP	src/errors.h	/^	E_ILLEGAL_JUMP  = 64,	$/;"	e	enum:Errors
+E_NAN	src/errors.h	/^	E_NAN           = 2,$/;"	e	enum:Errors
+E_SUCCESS	src/errors.h	/^	E_SUCCESS       = 0,$/;"	e	enum:Errors
+E_TO_LARGE	src/errors.h	/^	E_TO_LARGE      = 1,$/;"	e	enum:Errors
+Errors	src/errors.h	/^enum Errors $/;"	g
+FLAG$reg	xasm/e.asm	/^.EQU FLAG$reg 16383$/;"	d
+FLAG$value	xasm/e.asm	/^.EQU FLAG$value 24242$/;"	d
+FLAG_REG	xasm/w2.asm	/^.EQU FLAG_REG 16383 \/ Just before screen memory$/;"	d
+FLAG_REG	xasm/w2.asm	/^.EQU FLAG_REG 24242$/;"	d
+FLAG_REGISTER	xasm/c.asm	/^.EQU FLAG_REGISTER 16383$/;"	d
+FLAG_REGISTER	xasm/d.asm	/^.EQU FLAG_REGISTER 0x3FFF$/;"	d
+FLAG_VALUE	xasm/c.asm	/^.EQU FLAG_VALUE 24242$/;"	d
+FLAG_VALUE	xasm/d.asm	/^.EQU FLAG_VALUE 0b0101111010110010$/;"	d
+HASHMAP_H	src/hashmap.h	/^#define HASHMAP_H$/;"	d
+HashCell	src/hashmap.h	/^struct HashCell $/;"	s
+INCLUDES	makefile	/^INCLUDES := $(wildcard $(SRCDIR)\/*.h)$/;"	m
+LENGTH	src/hashmap.h	/^#define LENGTH /;"	d
+LFLAGS	makefile	/^LFLAGS   = -Wall -I. -lm -g -std=c99$/;"	m
+LINKER	makefile	/^LINKER   = gcc$/;"	m
+LOOKUP_H	src/lookup.h	/^#define LOOKUP_H$/;"	d
+L_COMMAND	src/parser.h	/^	L_COMMAND,$/;"	e	enum:COMMAND
+M	xasm/w1.asm	/^M = D$/;"	d
+M	xasm/w1.asm	/^M = D*M$/;"	d
+M	xasm/w1.asm	/^M = D+M; JFS$/;"	d
+M	xasm/w1.asm	/^M = D-M$/;"	d
+M	xasm/w2.asm	/^M = D$/;"	d
+M	xasm/w2.asm	/^M = D*M$/;"	d
+M	xasm/w2.asm	/^M = D+M; JFS$/;"	d
+M	xasm/w2.asm	/^M = D-M$/;"	d
+M	xasm/w3.asm	/^M = D$/;"	d
+M	xasm/w3.asm	/^M = D*M$/;"	d
+M	xasm/w3.asm	/^M = D+M; JFS$/;"	d
+M	xasm/w3.asm	/^M = D-M$/;"	d
+MAX_LEN	src/parser.h	/^#define MAX_LEN /;"	d
+OBJDIR	makefile	/^OBJDIR   = build$/;"	m
+OBJECTS	makefile	/^OBJECTS  := $(SOURCES:$(SRCDIR)\/%.c=$(OBJDIR)\/%.o)$/;"	m
+OP1	xasm/e.asm	/^.EQU OP1 100$/;"	d
+OP2.1	xasm/e.asm	/^.EQU OP2.1 200$/;"	d
+OP2.2	xasm/e.asm	/^.EQU OP2.2 201$/;"	d
+OP2.3	xasm/e.asm	/^.EQU OP2.3 202$/;"	d
+OP2.4	xasm/e.asm	/^.EQU OP2.4 203$/;"	d
+PARSER_H	src/parser.h	/^#define PARSER_H$/;"	d
+R0	xasm/w1.asm	/^R0 = D|M$/;"	d
+R0	xasm/w2.asm	/^R0 = D|M$/;"	d
+R0	xasm/w3.asm	/^R0 = D|M$/;"	d
+SOURCES	makefile	/^SOURCES  := $(wildcard $(SRCDIR)\/*.c)$/;"	m
+SRCDIR	makefile	/^SRCDIR   = src$/;"	m
+TARGET	makefile	/^TARGET = assembler.a$/;"	m
+X53	asm/test.asm	/^X53$/;"	l
+add_leading_zeros	src/conversions.c	/^void add_leading_zeros(char* dest, int length)$/;"	f	typeref:typename:void
+assemble	src/assembler.c	/^void assemble(FILE* f, FILE* out, int print)$/;"	f	typeref:typename:void
+bin_num	asm/test.asm	/^.EQU bin_num 0b101$/;"	d
+cool	asm/test.asm	/^.EQU cool 12345$/;"	d
+cool	asm/test2.asm	/^.EQU cool 11110$/;"	d
+cool	asm/test2.asm	/^.EQU cool 11111$/;"	d
+data	src/hashmap.h	/^	void* data;$/;"	m	struct:HashCell	typeref:typename:void *
+data	src/lookup.h	/^struct data {int value, linenum, type;};$/;"	s
+dec_to_bin	src/conversions.c	/^void dec_to_bin(int dec, char* bin)$/;"	f	typeref:typename:void
+errors_in_acmd	src/errors.c	/^int errors_in_acmd(char* cmd)$/;"	f	typeref:typename:int
+errors_in_ccmd	src/errors.c	/^int errors_in_ccmd(struct HashCell* map[], char* cmd)$/;"	f	typeref:typename:int
+errors_in_command	src/errors.c	/^int errors_in_command(struct table* lookup, struct HashCell* map[], char* cmd)$/;"	f	typeref:typename:int
+errors_in_comp	src/errors.c	/^int errors_in_comp(struct HashCell* map[], char* comp)$/;"	f	typeref:typename:int
+errors_in_dest	src/errors.c	/^int errors_in_dest(char* dest)$/;"	f	typeref:typename:int
+errors_in_directive	src/errors.c	/^int errors_in_directive(struct table* lookup, char* cmd)$/;"	f	typeref:typename:int
+errors_in_jump	src/errors.c	/^int errors_in_jump(char* jump)$/;"	f	typeref:typename:int
+errors_in_lcmd	src/errors.c	/^int errors_in_lcmd(struct table* lookup, char* cmd)$/;"	f	typeref:typename:int
+errors_in_symbol	src/errors.c	/^int errors_in_symbol(char* symbol)$/;"	f	typeref:typename:int
+fgetcskip	src/parser.c	/^char fgetcskip(FILE *f)$/;"	f	typeref:typename:char
+free_addr	src/lookup.h	/^	int free_addr;$/;"	m	struct:table	typeref:typename:int
+free_table	src/lookup.c	/^void free_table(struct table* lookup)$/;"	f	typeref:typename:void
+get_bin_code_from_hex	src/conversions.c	/^void get_bin_code_from_hex(char* bin, char hex)$/;"	f	typeref:typename:void
+get_bin_num	src/conversions.c	/^void get_bin_num(char* dest, char* src)$/;"	f	typeref:typename:void
+get_cmd_type	src/parser.c	/^int get_cmd_type(const char* cmd)$/;"	f	typeref:typename:int
+get_comp_code	src/code.c	/^void get_comp_code(struct HashCell* map[], char* code, char* cmd)$/;"	f	typeref:typename:void
+get_comp_field	src/parser.c	/^void get_comp_field(char* comp, const char* cmd)$/;"	f	typeref:typename:void
+get_dec_num	src/conversions.c	/^int get_dec_num(char* num)$/;"	f	typeref:typename:int
+get_dest_code	src/code.c	/^void get_dest_code(char* code, char* cmd)$/;"	f	typeref:typename:void
+get_dest_field	src/parser.c	/^void get_dest_field(char* dest, const char* cmd)$/;"	f	typeref:typename:void
+get_directive_fields	src/parser.c	/^void get_directive_fields(char* label, char* value, const char* cmd)$/;"	f	typeref:typename:void
+get_jump_code	src/code.c	/^void get_jump_code(char* code, char* cmd)$/;"	f	typeref:typename:void
+get_jump_field	src/parser.c	/^void get_jump_field(char* jump, const char* cmd)$/;"	f	typeref:typename:void
+get_next_cmd	src/parser.c	/^int get_next_cmd(char* cmd, FILE *f)$/;"	f	typeref:typename:int
+get_num_errors	src/errors.c	/^int get_num_errors(uint8_t error_code)$/;"	f	typeref:typename:int
+get_symbol_code	src/code.c	/^void get_symbol_code(struct table* lookup, char* code, char* cmd, int line_num)$/;"	f	typeref:typename:void
+get_symbol_field	src/parser.c	/^void get_symbol_field(char* symbol, const char* cmd)$/;"	f	typeref:typename:void
+hash_string	src/hashmap.c	/^uint32_t hash_string(char* s)$/;"	f	typeref:typename:uint32_t
+hex_to_bin	src/conversions.c	/^void hex_to_bin(char* bin, char* hex)$/;"	f	typeref:typename:void
+init_cell	src/hashmap.c	/^struct HashCell* init_cell(char key[], void* data, size_t data_size)$/;"	f	typeref:struct:HashCell *
+init_comp_table	src/comptable.c	/^struct HashCell** init_comp_table()$/;"	f	typeref:struct:HashCell **
+init_table	src/lookup.c	/^struct table* init_table()$/;"	f	typeref:struct:table *
+is_more_cmds	src/parser.c	/^int is_more_cmds(FILE *f)$/;"	f	typeref:typename:int
+is_num	src/errors.c	/^int is_num(const char* num)$/;"	f	typeref:typename:int
+key	src/hashmap.h	/^	char key[0];$/;"	m	struct:HashCell	typeref:typename:char[0]
+linenum	src/lookup.h	/^struct data {int value, linenum, type;};$/;"	m	struct:data	typeref:typename:int
+main	src/main.c	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+map	src/lookup.h	/^	struct HashCell* map[0];$/;"	m	struct:table	typeref:struct:HashCell * [0]
+map_delete	src/hashmap.c	/^int map_delete(struct HashCell* map[], char key[])$/;"	f	typeref:typename:int
+map_exists	src/hashmap.c	/^int map_exists(struct HashCell* map[], char key[])$/;"	f	typeref:typename:int
+map_find	src/hashmap.c	/^void* map_find(struct HashCell* map[], char key[])$/;"	f	typeref:typename:void *
+map_insert	src/hashmap.c	/^void map_insert(struct HashCell* map[], char key[], void* data, size_t data_size)$/;"	f	typeref:typename:void
+name_is_valid	src/errors.c	/^int name_is_valid(char* name)$/;"	f	typeref:typename:int
+next	src/hashmap.h	/^	struct HashCell* next;$/;"	m	struct:HashCell	typeref:struct:HashCell *
+num_is_correct_size	src/errors.c	/^int num_is_correct_size(char* num, int bits)$/;"	f	typeref:typename:int
+oh_cool	asm/test.asm	/^.EQU oh_cool 7645$/;"	d
+preparse	src/assembler.c	/^uint64_t preparse(FILE* f, struct table* lookup)$/;"	f	typeref:typename:uint64_t
+print_error	src/errors.c	/^void print_error(char* cmd, uint8_t error_code, int line_num)$/;"	f	typeref:typename:void
+print_table	src/lookup.c	/^void print_table(struct table* lookup)$/;"	f	typeref:typename:void
+rm	makefile	/^rm       = rm -f$/;"	m
+strcpytil	src/parser.c	/^char* strcpytil(char* dest, const char* src, const char* s)$/;"	f	typeref:typename:char *
+table	src/lookup.h	/^struct table$/;"	s
+table_delete	src/lookup.c	/^int table_delete(struct table* lookup, char key[])$/;"	f	typeref:typename:int
+table_exists	src/lookup.c	/^int table_exists(struct table* lookup, char key[])$/;"	f	typeref:typename:int
+table_find	src/lookup.c	/^struct data* table_find(struct table* lookup, char key[])$/;"	f	typeref:struct:data *
+table_insert	src/lookup.c	/^void table_insert(struct table* lookup, char key[], int value, int linenum,$/;"	f	typeref:typename:void
+table_insert_addresses	src/lookup.c	/^void table_insert_addresses(struct table* lookup)$/;"	f	typeref:typename:void
+type	src/lookup.h	/^struct data {int value, linenum, type;};$/;"	m	struct:data	typeref:typename:int
+value	src/lookup.h	/^struct data {int value, linenum, type;};$/;"	m	struct:data	typeref:typename:int
+x53	asm/test.asm	/^x53$/;"	l
+xFF	asm/test2.asm	/^xFF \/\/ to large$/;"	l
+xZo	asm/test2.asm	/^xZo$/;"	l
+yes90	asm/test2.asm	/^.EQU yes90$/;"	d

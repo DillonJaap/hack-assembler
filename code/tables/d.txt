@@ -1,0 +1,34 @@
+******************************************************************
+EQU:
+******************************************************************
+key: FLAG_REGISTER, value: 0, line num: 4
+key: FLAG_VALUE, value: 24242, line num: 5
+key: THAT, value: 4, line num: 0
+key: R10, value: 10, line num: 0
+key: R11, value: 11, line num: 0
+key: R12, value: 12, line num: 0
+key: R13, value: 13, line num: 0
+key: R14, value: 14, line num: 0
+key: R15, value: 15, line num: 0
+key: SCREEN, value: 16384, line num: 0
+key: ARG, value: 2, line num: 0
+key: LCL, value: 1, line num: 0
+key: KBD, value: 24576, line num: 0
+key: THIS, value: 3, line num: 0
+key: R0, value: 0, line num: 0
+key: R1, value: 1, line num: 0
+key: R2, value: 2, line num: 0
+key: R3, value: 3, line num: 0
+key: R4, value: 4, line num: 0
+key: R5, value: 5, line num: 0
+key: R6, value: 6, line num: 0
+key: R7, value: 7, line num: 0
+key: R8, value: 8, line num: 0
+key: R9, value: 9, line num: 0
+key: SP, value: 0, line num: 0
+******************************************************************
+ROM:
+******************************************************************
+******************************************************************
+RAM:
+******************************************************************
